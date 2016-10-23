@@ -2,27 +2,33 @@
 <html>
 <head>
 	<title>resume_page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
 	<div id="header">
-		<a href="home_page.html">Home</a>
-		<a href="resume_page.html">Resume</a>
-		<a href="http://aidantoole.com/" target="_blank"> Playbook</a>
-		<a href="mailto:aidantoole@gmail.com">Contact</a>
+		<table class="tablenav">
+			<td> <a href="home_page.html">Home</a> </td>
+			<td> <a href="resume_page.html">Resume</a> </td>
+			<td> <a href="portfolio_page.html">Portfolio</a> </td>
+			<td> <a href="http://aidantoole.com/" target="_blank"> Playbook</a> </td>
+			<td> <a href="mailto:aidantoole@gmail.com">Contact</a> </td>
+		</table>
 	</div>
 
 	<!-- So for these buttons below I was thinking for them to be a secondary navbar of sorts? I'm not totally sold on the idea, but I figured quick nav to each category of my resume would be useful, just not sure what the best way to approach it is 
 	-->
 
 	<div id="subheader">
-		<a href="#top">Skills</a>
-		<a href="#experience">Experience</a>
-		<a href="#awards">Awards</a>
-		<a href="#activities">Activities</a>
+			<table class="tablenav">
+				<td> <a href="#top">Skills</a> </td>
+				<td> <a href="#experience">Experience</a> </td>
+				<td> <a href="#awards">Awards</a> </td>
+				<td> <a href="#activities">Activities</a> </td>
+			</table>
 	</div>
 
-	<div id="main">
+	<div id="main" class="content">
 		<h1 id="top">Skills </h1>
 			<ul>
 				<li>Adobe Illustrator</li>

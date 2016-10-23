@@ -1,0 +1,75 @@
+body {
+	background-color: #465060;
+}
+/*---header or Navigation---*/
+
+	#header {
+	 	color: #fff;
+	 	font-size:150%;
+	 	word-spacing: 25px;
+	 }
+
+	.tablenav {
+	 	border-spacing:20px;
+	 }
+
+	/* full disclosure I looked up how to do some of this stuff on google */
+
+	#header a {
+	 	color: #fff;
+	 	text-decoration: none;
+	 }
+
+	#header a:hover {
+	 	text-decoration: underline;
+	 }
+
+	#subheader {
+		top: 50px;
+		position: absolute;
+		/* I wanted to get rid of the large space between the top nav and the secondary nav */
+	}
+
+	#subheader a {
+		color:#97d9ee;
+		font-size: 120%;
+		text-decoration: none;
+	}
+
+	#subheader a:hover{
+		text-decoration: underline;
+	}
+
+/*---Content---*/
+
+	.content h1{
+		color: #00cfff;
+	}
+	.content {
+		color:#fff;
+		font-size: 20px;
+		text-align: justify;
+		justify-content: inter-word;
+	}
+
+	.content a {
+		color:#ef4136;
+	}
+
+	#main {
+		width: 800px;
+		margin-left: 50px;
+	}
+
+	.content h4{
+		color: 
+	}
+
+	.portimg{
+		width: 250px;
+		height: auto;
+	}
+
+	#pics {
+		border-spacing:50px;
+	}
