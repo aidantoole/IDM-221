@@ -1,5 +1,7 @@
 body {
 	background-color: #465060;
+	font-family: 'Open Sans', sans-serif;
+
 }
 /*---header or Navigation---*/
 
@@ -7,6 +9,7 @@ body {
 	 	color: #fff;
 	 	font-size:150%;
 	 	word-spacing: 25px;
+	 	font-family: 'Montserrat', sans-serif;
 	 }
 
 	.tablenav {
@@ -44,6 +47,7 @@ body {
 
 	.content h1{
 		color: #00cfff;
+		font-family: 'Montserrat', sans-serif;
 	}
 	.content {
 		color:#fff;
