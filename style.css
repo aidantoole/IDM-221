@@ -1,30 +1,35 @@
 body {
-	background-color: #465060;
+	/* background-color: #465060; */
+	background-color: #F9F9F9;
 	font-family: 'Open Sans', sans-serif;
 
 }
 /*---header or Navigation---*/
 
 	#header {
-	 	color: #fff;
+	 	color: #000000;
 	 	font-size:150%;
 	 	word-spacing: 25px;
-	 	font-family: 'Montserrat', sans-serif;
+	 	font-family: 'Montserrat';
 	 }
 
 	.tablenav {
 	 	border-spacing:20px;
 	 }
 
-	/* full disclosure I looked up how to do some of this stuff on google */
+	
+	#header u{
+		text-decoration-color: #ef4136;
+	}
 
 	#header a {
-	 	color: #fff;
+	 	color: #000000;
 	 	text-decoration: none;
 	 }
 
 	#header a:hover {
-	 	text-decoration: underline;
+	 	/* text-decoration: underline; */
+	 	color: #ef4136;
 	 }
 
 	#subheader {
@@ -34,13 +39,16 @@ body {
 	}
 
 	#subheader a {
-		color:#97d9ee;
-		font-size: 120%;
+		color:#000;
+		font-size: 150%;
 		text-decoration: none;
+		font-family: 'Montserrat';
 	}
 
+
 	#subheader a:hover{
-		text-decoration: underline;
+		/* text-decoration: underline; */
+		color: #febd21;
 	}
 
 /*---Content---*/
@@ -50,30 +58,112 @@ body {
 		font-family: 'Montserrat', sans-serif;
 	}
 	.content {
-		color:#fff;
+		color:#000;
 		font-size: 20px;
 		text-align: justify;
 
 	}
 
 	.content a {
-		color:#ef4136;
+		color:#febd21;
+		text-decoration: none;
+	}
+
+	.content a:hover{
+		text-decoration: underline;
 	}
 
 	#main {
-		width: 800px;
+		width: 900px;
 		margin-left: 50px;
 	}
-/*
-	.content h4{
-		color:
-	}
-*/
+
 	.portimg{
-		width: 250px;
+		width: 350px;
 		height: auto;
 	}
 
 	#pics {
-		border-spacing:50px;
+		border-spacing:10px;
+		margin: auto;
 	}
+
+	#pics img:hover{
+		opacity: 0.5;
+		background: #000;
+	}
+	/* figured this one out on my own, pretty proud of that */
+
+/* --- Icons --- */
+
+	.imgicons{
+		width: 60px;
+		height: 60px;
+		background-repeat: no-repeat;
+	}
+
+	
+	#icons{
+		border-left: 20px;
+		/* margin-left: 0px; */
+		width: 50px;
+		height: auto;
+	}
+
+	/* --- Icon SVGS - Black --- */
+/* I'm having some trouble with these svgs, they worked when tested in chrome, but when I uploaded the file to my actual website it craps out. 
+The links are still there but the icons aren't cooperating.
+	#dribbble {
+		background-image: url('icons/dribbblecopy3_black.svg');
+	}
+
+	#instagram {
+		background-image: url('icons/instagramcopy3_black.svg');
+	}
+	
+	#linkedin {
+		background-image: url('icons/linkedincopy3_black.svg');
+	}
+*/
+	/* --- Icons - Hover ---*/
+/*
+	#dribbble:hover{
+		background-image: url('icons/dribbblecopy3_color.svg');
+	}
+
+	#instagram:hover{
+		background-image: url('icons/instagramcopy3_color.svg');
+	}
+	
+	#linkedin:hover{
+		background-image: url('icons/linkedincopy3_color.svg');
+	}
+*/
+
+/* --- portfolio content --- */
+
+	#picscontent{
+		margin: auto;
+	}
+
+	#description{
+		font-size: 250%;
+		font-family: 'Montserrat-Bold';
+		margin-left: 50px;
+		text-align:left;
+		width: 500px;
+	}
+
+
+	#large_img_div{
+		text-align: center;
+	}
+
+	.port_title h1{
+		text-align: center;
+	}
+
+
+
+	
+
