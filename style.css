@@ -1,6 +1,11 @@
 body {
 	/* background-color: #465060; */
-	background-color: #F0F0F0;
+	/*background-color: #F0F0F0;*/
+	background: #43C6AC; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left, #43C6AC, #191654); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, #43C6AC, #191654); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, #43C6AC, #191654); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, #43C6AC, #191654); /* Standard syntax */
 	font-family: 'Open Sans', sans-serif;
 
 }
@@ -18,16 +23,16 @@ body {
 	 }
 	
 	#header u{
-		text-decoration-color: #ef4136;
+		text-decoration-color: #fff;
 	}
 
 	#header a {
-	 	color: #000000;
+	 	color: #fff;
 	 	text-decoration: none;
 	 }
 
 	#header a:hover {
-	 	color: #ef4136;
+	 	color: #191654;
 	 }
 
 	#subheader {
@@ -39,7 +44,7 @@ body {
 	}
 
 	#subheader a {
-		color:#000;
+		color:#fff;
 		font-size: 150%;
 		text-decoration: none;
 		font-family: 'Montserrat';
@@ -47,29 +52,31 @@ body {
 
 
 	#subheader a:hover{
-		color: #febd21;
+		color: ##191654;
+		text-decoration: underline;
 	}
 
 /*---Content---*/
 
 	.content h1{
-		color: #00cfff;
+		color: #fff;
 		font-family: 'Montserrat', sans-serif;
 	}
 	.content {
-		color:#000;
+		color:#fff;
 		font-size: 20px;
 		text-align: justify;
 
 	}
 
 	.content a {
-		color:#febd21;
-		text-decoration: none;
+		color:#fff;
+		text-decoration: underline;
 	}
 
 	.content a:hover{
-		text-decoration: underline;
+		color: #43C6AC;
+		text-decoration: none;
 	}
 
 	#main {
@@ -114,29 +121,29 @@ body {
 The links are still there but the icons aren't cooperating. */
 
 	#dribbble {
-		background-image: url('icons/dribbble_black.png');
+		background-image: url('icons/dribbble_white.png');
 	}
 
 	#instagram {
-		background-image: url('icons/instagram_black.png');
+		background-image: url('icons/instagram_white.png');
 	}
 	
 	#linkedin {
-		background-image: url('icons/linkedIn_black.png');
+		background-image: url('icons/linkedIn_white.png');
 	}
 
 	/* --- Icons - Hover ---*/
 
 	#dribbble:hover{
-		background-image: url('icons/dribbble_color.png');
+		background-image: url('icons/dribbble_purple.png');
 	}
 
 	#instagram:hover{
-		background-image: url('icons/instagram_color.png');
+		background-image: url('icons/instagram_purple.png');
 	}
 	
 	#linkedin:hover{
-		background-image: url('icons/linkedIn_color.png');
+		background-image: url('icons/linkedIn_purple.png');
 	}
 	
 
