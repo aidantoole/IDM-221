@@ -1,22 +1,21 @@
 body {
 	/* background-color: #465060; */
-	background-color: #F9F9F9;
+	background-color: #F0F0F0;
 	font-family: 'Open Sans', sans-serif;
 
 }
 /*---header or Navigation---*/
 
 	#header {
-	 	color: #000000;
 	 	font-size:150%;
-	 	word-spacing: 25px;
+	 	word-spacing: 20px;
 	 	font-family: 'Montserrat';
+	 	text-align: center;
 	 }
 
 	.tablenav {
 	 	border-spacing:20px;
 	 }
-
 	
 	#header u{
 		text-decoration-color: #ef4136;
@@ -28,13 +27,14 @@ body {
 	 }
 
 	#header a:hover {
-	 	/* text-decoration: underline; */
 	 	color: #ef4136;
 	 }
 
 	#subheader {
-		top: 50px;
-		position: absolute;
+	 	word-spacing: 20px;
+	 	margin-left: 30px;
+	 	text-align: center;
+	 	margin-top: 10px;
 		/* I wanted to get rid of the large space between the top nav and the secondary nav */
 	}
 
@@ -47,7 +47,6 @@ body {
 
 
 	#subheader a:hover{
-		/* text-decoration: underline; */
 		color: #febd21;
 	}
 
@@ -95,50 +94,51 @@ body {
 	/* figured this one out on my own, pretty proud of that */
 
 /* --- Icons --- */
-
+	
 	.imgicons{
 		width: 60px;
 		height: 60px;
 		background-repeat: no-repeat;
 	}
 
-	
-	#icons{
+	/*
+	 #icons{
 		border-left: 20px;
-		/* margin-left: 0px; */
 		width: 50px;
 		height: auto;
 	}
+	*/
 
 	/* --- Icon SVGS - Black --- */
 /* I'm having some trouble with these svgs, they worked when tested in chrome, but when I uploaded the file to my actual website it craps out. 
-The links are still there but the icons aren't cooperating.
+The links are still there but the icons aren't cooperating. */
+
 	#dribbble {
-		background-image: url('icons/dribbblecopy3_black.svg');
+		background-image: url('icons/dribbble_black.png');
 	}
 
 	#instagram {
-		background-image: url('icons/instagramcopy3_black.svg');
+		background-image: url('icons/instagram_black.png');
 	}
 	
 	#linkedin {
-		background-image: url('icons/linkedincopy3_black.svg');
+		background-image: url('icons/linkedIn_black.png');
 	}
-*/
+
 	/* --- Icons - Hover ---*/
-/*
+
 	#dribbble:hover{
-		background-image: url('icons/dribbblecopy3_color.svg');
+		background-image: url('icons/dribbble_color.png');
 	}
 
 	#instagram:hover{
-		background-image: url('icons/instagramcopy3_color.svg');
+		background-image: url('icons/instagram_color.png');
 	}
 	
 	#linkedin:hover{
-		background-image: url('icons/linkedincopy3_color.svg');
+		background-image: url('icons/linkedIn_color.png');
 	}
-*/
+	
 
 /* --- portfolio content --- */
 
@@ -147,11 +147,11 @@ The links are still there but the icons aren't cooperating.
 	}
 
 	#description{
-		font-size: 250%;
-		font-family: 'Montserrat-Bold';
-		margin-left: 50px;
+		font-size: 150%;
+		font-family: 'OpenSans-Semibold';
+		margin-left: 30px;
 		text-align:left;
-		width: 500px;
+		width: 400px;
 	}
 
 
