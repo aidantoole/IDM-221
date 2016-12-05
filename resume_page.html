@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>resume_page</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Aidan Toole Resume</title>
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 
 	<body>
-
 		<div id="header">
-			<nav>
-				 	<a href="index.html">Home</a>
-				 	<a href="resume_page.html"><u>Resume</u></a>
-				 	<a href="portfolio_page.html">Portfolio</a>
-				 	<a href="http://aidantoole.com/" target="_blank"> Playbook</a>
-				 	<a href="mailto:aidantoole@gmail.com">Contact</a>
-			</nav>
-		</div>
-
-		<!-- So for these buttons below I was thinking for them to be a secondary navbar of sorts? I'm not totally sold on the idea, but I figured quick nav to each category of my resume would be useful, just not sure what the best way to approach it is 
-		-->
-
-		<div id="subheader">
-				<nav>
-					<a href="#experience">Experience</a>
-					<a href="#awards">Awards</a> </td>
-					<a href="#activities">Activities</a>
+			<div id="innerheader">
+				<nav class="pagenav">
+					 	<a href="index.html">Home</a>
+					 	<a href="resume_page.html"><u>Resume</u></a>
+					 	<a href="portfolio_page.html">Portfolio</a>
+					 	<a href="http://aidantoole.com/" target="_blank"> Playbook</a>
+					 	<a href="mailto:aidantoole@gmail.com">Contact</a>
 				</nav>
+			</div>
+
+			<!--- UPDATE: Overhaul, subnav bar seems to be working well -->
+
+			<div id="subheader">
+					<nav class="pagenav">
+						<a class="anchor" href="#skills">Skills</a>
+						<a class="anchor" href="#experience">Experience</a>
+						<a class="anchor" href="#awards">Awards</a>
+						<a class="anchor" href="#activities">Activities</a>
+					</nav>
+			</div>
 		</div>
 
-		<div id="main" class="content">
-			<h1>Skills </h1>
+		<div id="resume" class="content">
+			<h1 id="skills">Skills </h1>
 				<ul>
 					<li>Adobe Illustrator</li>
 					<li>Adobe Photoshop</li>

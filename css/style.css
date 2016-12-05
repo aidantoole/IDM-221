@@ -7,65 +7,20 @@ body {
   	background: -moz-linear-gradient(right, #43C6AC, #191654); /* For Firefox 3.6 to 15 */
   	background: linear-gradient(to right, #43C6AC, #191654); /* Standard syntax */
 	font-family: 'Open Sans', sans-serif;
-
 }
-/*---header or Navigation---*/
 
-	#header {
-	 	font-size:150%;
-	 	word-spacing: 20px;
-	 	font-family: 'Montserrat';
-	 	text-align: center;
-	 }
-
-	.tablenav {
-	 	border-spacing:20px;
-	 }
 	
-	#header u{
-		text-decoration-color: #fff;
-	}
-
-	#header a {
-	 	color: #fff;
-	 	text-decoration: none;
-	 }
-
-	#header a:hover {
-	 	color: #191654;
-	 }
-
-	#subheader {
-	 	word-spacing: 20px;
-	 	margin-left: 30px;
-	 	text-align: center;
-	 	margin-top: 10px;
-		/* I wanted to get rid of the large space between the top nav and the secondary nav */
-	}
-
-	#subheader a {
-		color:#fff;
-		font-size: 150%;
-		text-decoration: none;
-		font-family: 'Montserrat';
-	}
-
-
-	#subheader a:hover{
-		color: ##191654;
-		text-decoration: underline;
-	}
-
 /*---Content---*/
 
 	.content h1{
 		color: #fff;
 		font-family: 'Montserrat', sans-serif;
 	}
+
 	.content {
 		color:#fff;
 		font-size: 20px;
-		text-align: justify;
+		text-align: left;
 
 	}
 
@@ -75,13 +30,22 @@ body {
 	}
 
 	.content a:hover{
-		color: #43C6AC;
+		color: #191654;
 		text-decoration: none;
 	}
 
 	#main {
-		width: 900px;
-		margin-left: 50px;
+		width: 80%;
+		margin: auto;
+		position: relative;
+		top: 50%;
+		transform: translateY(25%);
+	}
+
+	#resume {
+		width: 80%;
+		margin: auto;
+		padding-top: 90px;
 	}
 
 	.portimg{
@@ -98,6 +62,17 @@ body {
 		opacity: 0.5;
 		background: #000;
 	}
+
+	:target:before{
+		content:"";
+		display: block;
+		height:110px;
+		margin: -110px 0 0;
+	}
+
+	/* Googled this, lots of different results, but this one worked? */
+
+
 	/* figured this one out on my own, pretty proud of that */
 
 /* --- Icons --- */
@@ -108,42 +83,41 @@ body {
 		background-repeat: no-repeat;
 	}
 
-	/*
+	
 	 #icons{
-		border-left: 20px;
+		margin: auto;
 		width: 50px;
 		height: auto;
 	}
-	*/
 
 	/* --- Icon SVGS - Black --- */
-/* I'm having some trouble with these svgs, they worked when tested in chrome, but when I uploaded the file to my actual website it craps out. 
-The links are still there but the icons aren't cooperating. */
+	/* I'm having some trouble with these svgs, they worked when tested in chrome, but when I uploaded the file to my actual website it craps out. 
+	The links are still there but the icons aren't cooperating. UPDATE I put the icons in the images folder and that seemed to do the trick*/
 
 	#dribbble {
-		background-image: url('icons/dribbble_white.png');
+		background-image: url('../images/icons/dribbble_white.svg');
 	}
 
 	#instagram {
-		background-image: url('icons/instagram_white.png');
+		background-image: url('../images/icons/instagram_white.svg');
 	}
 	
 	#linkedin {
-		background-image: url('icons/linkedIn_white.png');
+		background-image: url('../images/icons/linkedIn_white.svg');
 	}
 
 	/* --- Icons - Hover ---*/
 
 	#dribbble:hover{
-		background-image: url('icons/dribbble_purple.png');
+		background-image: url('../images/icons/dribbble_purple.svg');
 	}
 
 	#instagram:hover{
-		background-image: url('icons/instagram_purple.png');
+		background-image: url('../images/icons/instagram_purple.svg');
 	}
 	
 	#linkedin:hover{
-		background-image: url('icons/linkedIn_purple.png');
+		background-image: url('../images/icons/linkedIn_purple.svg');
 	}
 	
 
